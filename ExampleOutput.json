@@ -1,0 +1,181 @@
+Result = {
+ "paramName": "Output_Origin_Destination_Lines",
+ "dataType": "GPFeatureRecordSetLayer",
+ "value": {
+  "displayFieldName": "",
+  "geometryType": "esriGeometryPolyline",
+  "spatialReference": {
+   "wkid": 4326,
+   "latestWkid": 4326
+  },
+  "fields": [
+   {
+    "name": "OBJECTID",
+    "type": "esriFieldTypeOID",
+    "alias": "OBJECTID"
+   },
+   {
+    "name": "DestinationRank",
+    "type": "esriFieldTypeInteger",
+    "alias": "Destination Rank"
+   },
+   {
+    "name": "Total_Time",
+    "type": "esriFieldTypeDouble",
+    "alias": "Total Time (Minutes)"
+   },
+   {
+    "name": "Total_Distance",
+    "type": "esriFieldTypeDouble",
+    "alias": "Total Distance (Kilometers)"
+   },
+   {
+    "name": "OriginName",
+    "type": "esriFieldTypeString",
+    "alias": "Origin Name",
+    "length": 500
+   },
+   {
+    "name": "OriginOID",
+    "type": "esriFieldTypeInteger",
+    "alias": "Origin OID"
+   },
+   {
+    "name": "DestinationName",
+    "type": "esriFieldTypeString",
+    "alias": "Destination Name",
+    "length": 500
+   },
+   {
+    "name": "DestinationOID",
+    "type": "esriFieldTypeInteger",
+    "alias": "Destination OID"
+   },
+   {
+    "name": "Shape_Length",
+    "type": "esriFieldTypeDouble",
+    "alias": "Shape_Length"
+   }
+  ],
+  "features": [
+   {
+    "attributes": {
+     "OBJECTID": 1,
+     "DestinationRank": 1,
+     "Total_Time": 3.5788305156380384,
+     "Total_Distance": 1.3905834985775882,
+     "OriginName": "Soquel House",
+     "OriginOID": 1,
+     "DestinationName": "Laurel and Chestnut",
+     "DestinationOID": 1,
+     "Shape_Length": 0
+    }
+   },
+   {
+    "attributes": {
+     "OBJECTID": 2,
+     "DestinationRank": 2,
+     "Total_Time": 5.0293862184193792,
+     "Total_Distance": 1.9131677701999816,
+     "OriginName": "Soquel House",
+     "OriginOID": 1,
+     "DestinationName": "Felix Area",
+     "DestinationOID": 2,
+     "Shape_Length": 0
+    }
+   },
+   {
+    "attributes": {
+     "OBJECTID": 3,
+     "DestinationRank": 3,
+     "Total_Time": 13.6200940278574,
+     "Total_Distance": 7.0605524722810351,
+     "OriginName": "Soquel House",
+     "OriginOID": 1,
+     "DestinationName": "UCSC",
+     "DestinationOID": 3,
+     "Shape_Length": 0
+    }
+   },
+   {
+    "attributes": {
+     "OBJECTID": 4,
+     "DestinationRank": 1,
+     "Total_Time": 0,
+     "Total_Distance": 0,
+     "OriginName": "Laurel and Chestnut",
+     "OriginOID": 2,
+     "DestinationName": "Laurel and Chestnut",
+     "DestinationOID": 1,
+     "Shape_Length": 0
+    }
+   },
+   {
+    "attributes": {
+     "OBJECTID": 5,
+     "DestinationRank": 2,
+     "Total_Time": 2.1245997545930133,
+     "Total_Distance": 0.77152131375845667,
+     "OriginName": "Laurel and Chestnut",
+     "OriginOID": 2,
+     "DestinationName": "Felix Area",
+     "DestinationOID": 2,
+     "Shape_Length": 0
+    }
+   },
+   {
+    "attributes": {
+     "OBJECTID": 6,
+     "DestinationRank": 3,
+     "Total_Time": 11.95486087100825,
+     "Total_Distance": 6.3195732153303457,
+     "OriginName": "Laurel and Chestnut",
+     "OriginOID": 2,
+     "DestinationName": "UCSC",
+     "DestinationOID": 3,
+     "Shape_Length": 0
+    }
+   },
+   {
+    "attributes": {
+     "OBJECTID": 7,
+     "DestinationRank": 1,
+     "Total_Time": 0,
+     "Total_Distance": 0,
+     "OriginName": "Felix Area",
+     "OriginOID": 3,
+     "DestinationName": "Felix Area",
+     "DestinationOID": 2,
+     "Shape_Length": 0
+    }
+   },
+   {
+    "attributes": {
+     "OBJECTID": 8,
+     "DestinationRank": 2,
+     "Total_Time": 3.1687443718240438,
+     "Total_Distance": 0.72863417057016655,
+     "OriginName": "Felix Area",
+     "OriginOID": 3,
+     "DestinationName": "Laurel and Chestnut",
+     "DestinationOID": 1,
+     "Shape_Length": 0
+    }
+   },
+   {
+    "attributes": {
+     "OBJECTID": 9,
+     "DestinationRank": 3,
+     "Total_Time": 13.531788700425185,
+     "Total_Distance": 6.3933593688386496,
+     "OriginName": "Felix Area",
+     "OriginOID": 3,
+     "DestinationName": "UCSC",
+     "DestinationOID": 3,
+     "Shape_Length": 0
+    }
+   }
+  ],
+  "exceededTransferLimit": false
+ }
+}
